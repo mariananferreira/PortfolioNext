@@ -2,10 +2,10 @@ import { Fragment } from 'react'
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
+import Image from 'next/image'
 
-import { Button } from '@/components/Button'
+import logo from '@/images/logo.png'
 import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 
 function MobileNavLink({ href, children }) {
@@ -62,7 +62,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
+          <Popover.Overlay className="fixed inset-0 primaryBack " />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -75,13 +75,13 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-[rgba(0,0,0,0.3)] p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
+            <MobileNavLink href="#sobremim">About Me</MobileNavLink>
+            <MobileNavLink href="#agendamentos">Projects</MobileNavLink>
+            <MobileNavLink href="#contatos">What I do?</MobileNavLink>
+            <MobileNavLink href="#contatos">Technologies</MobileNavLink>
+            <MobileNavLink href="#contatos">Contacts</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -91,30 +91,29 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="fixed w-full top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
+    ">
+      <div className="mr-6 flex lg:hidden">
+      <MobileNavigation/>
+      </div>
       <Container>
         <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
+          <div className="relative flex flex-grow basis-0 items-center">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+            <Image
+                className="h-9 w-8"
+                src={logo}
+                alt="nut"
+                priority              
+              />
             </Link>
-            <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
-            </div>
-          </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div>
-            <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button>
-            <div className="-mr-1 md:hidden">
-              <MobileNavigation />
+            <p className= "primary">Mariana Ferreira</p>
+            <div className="hidden sm:ml-6 lg:block space-x-4">
+              <NavLink href="#sobremim">About Me</NavLink>
+              <NavLink href="#agendamentos">Projects</NavLink>
+              <NavLink href="#contatos">What I do?</NavLink>
+              <NavLink href="#contatos">Technologies</NavLink>
+              <NavLink href="#contatos">Contacts</NavLink>
             </div>
           </div>
         </nav>

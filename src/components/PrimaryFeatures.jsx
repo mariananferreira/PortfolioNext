@@ -124,10 +124,10 @@ export function PrimaryFeatures() {
                   Passionate traveler                
                 </h2>
                 <p className="textAboutMe">
-                  Currently I work for a company as a Pega System's Architect, but I'm also specialized in creating web applications for individuals and small businesses.<br/>
+                  Currently I work for a company as a Pega Systems Architect, but I am also specialized in creating web applications for individuals and small businesses.<br/>
                 </p>
                 <p className="textAboutMe">
-                  I've built products for companies and businesses around the globe ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.<br/>
+                  I have built products for companies and businesses around the globe ranging from marketing websites to complex solutions and enterprise apps with focus on fast, elegant and accessible user experiences.<br/>
                 </p>
                 <p className="textAboutMe">
                   As a digital nomad to be, my biggest passion is traveling the world!<br/>Take a look at my portfolio below

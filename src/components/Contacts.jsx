@@ -5,7 +5,7 @@ import mari3 from '@/images/5.png'
 import insta from '@/images/5.png'
 
 
-export function Testimonials() {
+export function Contacts() {
   return (
     <section
       id="contatos"

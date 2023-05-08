@@ -4,37 +4,54 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import marig from '@/images/marig.JPG'
+import portfolio from '@/images/port.JPG'
+import realestate from '@/images/RS.JPG'
+import shop from '@/images/shop.JPG'
+import vfx from '@/images/vfx.JPG'
+import map from '@/images/mapa.JPG'
+
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Real Estate Website',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "This website includes a serie of pictures of the new apartments, a description of the building and its amenities, information about the area involved and a contact form.",
+    image: realestate,
   },
   {
-    title: 'Claim expenses',
+    title: 'Online presence',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Having a website is crucial for any business looking to expand its online presence. By creating this website, the nutricionist could reach a wider audience and attract more potential customers",
+    image: marig,
   },
   {
-    title: 'VAT handling',
+    title: '3D Models',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "With Three.js is possible to incorporate a 3D Model in a website. In this one is possible to see a Portugal city in 3D with the respective points of interest, it has a link to virtual tours in each point.",
+    image: map,
+  },
+
+  {
+    title: 'Informative website',
+    description:
+      "Informative website developed to be used in an interactive table. It provides information about the city's points of interest, historical references, a timeline of events and 3D models of the city.",
+    image: vfx,
+  },
+
+  {
+    title: 'E-commerce website',
+    description:
+      "Mago shop is a store of tech products, where it is possible to login, see the best selling products, evaluate and leave comments, put the products in the cart and make the payment.",
+    image: shop,
   },
   {
-    title: 'Reporting',
+    title: 'Portfolio',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'An portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
+    image: portfolio,
   },
+
 ]
 
 export function Projects() {
@@ -58,12 +75,12 @@ export function Projects() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pb-28 pt-20 sm:py-32"
+      aria-label=""
+      className="relative overflow-hidden secondary pb-28 pt-20 sm:py-32"
     >
       <Image
         className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src={backgroundImage}
+        src=""
         alt=""
         width={2245}
         height={1636}
@@ -71,13 +88,12 @@ export function Projects() {
       />
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
-          </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
-          </p>
+            <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+              Projects
+            </h2>
+            <p className="mt-6 text-lg tracking-tight textAboutMe">
+              I’ve worked on a few little projects over the years but these are the most important ones. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.
+            </p>
         </div>
         <Tab.Group
           as="div"
@@ -134,7 +150,7 @@ export function Projects() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="mt-10 w-[45rem] overflow-hidden rounded-xl secondary shadow-xl shadow-purple-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}

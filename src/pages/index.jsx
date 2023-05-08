@@ -7,17 +7,15 @@ import { Hero } from '@/components/Hero'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Projects } from '@/components/Projects'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Testimonials } from '@/components/Testimonials'
+import Technologies, { Testimonials } from '@/components/Testimonials'
+//import { Contacts } from '@/components/Contacts'
+
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Mariana Portfolio</title>
-        <meta
-          name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
-        />
       </Head>
       <Header />
       <main>
@@ -26,7 +24,7 @@ export default function Home() {
         <Projects />
         <SecondaryFeatures />
         <CallToAction />
-        <Testimonials />
+        <Technologies />
       </main>
       <Footer />
     </>

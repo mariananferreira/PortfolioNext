@@ -4,12 +4,12 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import marig from '@/images/mapa.JPG'
-import portfolio from '@/images/mapa.JPG'
-import realestate from '@/images/mapa.JPG'
-import shop from '@/images/mapa.JPG'
-import vfx from '@/images/mapa.JPG'
-import map from '@/images/mapa.JPG'
+import marig from '@/images/logo.png'
+import portfolio from '@/images/logo.png'
+import realestate from '@/images/logo.png'
+import shop from '@/images/logo.png'
+import vfx from '@/images/logo.png'
+import map from '@/images/logo.png'
 
 
 const features = [

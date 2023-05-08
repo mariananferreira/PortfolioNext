@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import marig from '@/images/logo.png'
+import marig from '@/images/marisite.PNG'
 import portfolio from '@/images/logo.png'
 import realestate from '@/images/logo.png'
 import shop from '@/images/logo.png'

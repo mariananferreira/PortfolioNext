@@ -5,10 +5,10 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import marig from '@/images/mapa.JPG'
-import portfolio from '@/images/port.JPG'
-import realestate from '@/images/RS.JPG'
-import shop from '@/images/shop.JPG'
-import vfx from '@/images/vfx.JPG'
+import portfolio from '@/images/mapa.JPG'
+import realestate from '@/images/mapa.JPG'
+import shop from '@/images/mapa.JPG'
+import vfx from '@/images/mapa.JPG'
 import map from '@/images/mapa.JPG'
 
 

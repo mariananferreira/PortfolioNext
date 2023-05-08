@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
 
 export function CallToAction() {
   return (
@@ -11,7 +10,7 @@ export function CallToAction() {
     >
       <Image
         className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
-        src={backgroundImage}
+        src=""
         alt=""
         width={2347}
         height={1244}

@@ -8,7 +8,7 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { Projects } from '@/components/Projects'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import Technologies, { Testimonials } from '@/components/Testimonials'
-//import { Contacts } from '@/components/Contacts'
+import { Contacts } from '@/components/Contacts'
 
 
 export default function Home() {
@@ -25,6 +25,7 @@ export default function Home() {
         <SecondaryFeatures />
         <CallToAction />
         <Technologies />
+        <Contacts />
       </main>
       <Footer />
     </>

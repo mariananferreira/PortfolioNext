@@ -5,11 +5,11 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import marig from '@/images/marig.png'
-import portfolio from '@/images/logo.png'
-import realestate from '@/images/logo.png'
-import shop from '@/images/logo.png'
-import vfx from '@/images/logo.png'
-import map from '@/images/logo.png'
+import portfolio from '@/images/portf.jpg'
+import realestate from '@/images/rstate.jpg'
+import shop from '@/images/shopi.jpg'
+import vfx from '@/images/vfxira.jpg'
+import map from '@/images/maps.jpg'
 
 
 const features = [

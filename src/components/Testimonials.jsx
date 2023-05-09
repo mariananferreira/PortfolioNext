@@ -108,30 +108,35 @@ const people = [
 
 export default function Technologies() {
   return (
-    <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-      <div className="space-y-8 sm:space-y-12">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Technologies that I use
-          </h2>
-        <ul
-          role="list"
-          className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
-        >
-          {people.map(person => (
-            <li key={person.name}>
-              <div className="space-y-4">
-                <Image
-                  className="mx-auto h-20 w-20 lg:h-24 lg:w-24 grayscale hover:grayscale-0  hover:scale-125 transition-all duration-500 ease-in-out object-contain"
-                  src={person.imageUrl}
-                  alt=""
-                  title={person.tooltip}
-                  priority
-                />
-              </div>
-            </li>
-          ))}
-        </ul>
+    <section
+      id="technologies"
+      aria-label=""
+    >
+      <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
+        <div className="space-y-8 sm:space-y-12">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              Technologies that I use
+            </h2>
+          <ul
+            role="list"
+            className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6"
+          >
+            {people.map(person => (
+              <li key={person.name}>
+                <div className="space-y-4">
+                  <Image
+                    className="mx-auto h-20 w-20 lg:h-24 lg:w-24 grayscale hover:grayscale-0  hover:scale-125 transition-all duration-500 ease-in-out object-contain"
+                    src={person.imageUrl}
+                    alt=""
+                    title={person.tooltip}
+                    priority
+                  />
+                </div>
+              </li>
+           ))}
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -18,7 +18,7 @@ export default function Home() {
         <title>Mariana Portfolio</title>
       </Head>
       <Header />
-      <main>
+      <main className='primaryBack'>
         <Hero />
         <PrimaryFeatures />
         <Projects />

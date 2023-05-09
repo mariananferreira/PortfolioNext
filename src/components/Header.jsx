@@ -77,11 +77,11 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-[rgba(0,0,0,0.3)] p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#sobremim">About Me</MobileNavLink>
-            <MobileNavLink href="#agendamentos">Projects</MobileNavLink>
-            <MobileNavLink href="#contatos">What I do?</MobileNavLink>
-            <MobileNavLink href="#contatos">Technologies</MobileNavLink>
-            <MobileNavLink href="#contatos">Contacts</MobileNavLink>
+            <MobileNavLink href="#aboutme">About Me</MobileNavLink>
+            <MobileNavLink href="#projects">Projects</MobileNavLink>
+            <MobileNavLink href="#whatido">What I do?</MobileNavLink>
+            <MobileNavLink href="#technologies">Technologies</MobileNavLink>
+            <MobileNavLink href="#contacts">Contacts</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -109,11 +109,11 @@ export function Header() {
             </Link>
             <p className= "primary">Mariana Ferreira</p>
             <div className="hidden sm:ml-6 lg:block space-x-4">
-              <NavLink href="#sobremim">About Me</NavLink>
-              <NavLink href="#agendamentos">Projects</NavLink>
-              <NavLink href="#contatos">What I do?</NavLink>
-              <NavLink href="#contatos">Technologies</NavLink>
-              <NavLink href="#contatos">Contacts</NavLink>
+              <NavLink href="#aboutme">About Me</NavLink>
+              <NavLink href="#projects">Projects</NavLink>
+              <NavLink href="#whatido">What I do?</NavLink>
+              <NavLink href="#technologies">Technologies</NavLink>
+              <NavLink href="#contacts">Contacts</NavLink>
             </div>
           </div>
         </nav>

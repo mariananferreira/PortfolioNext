@@ -74,30 +74,22 @@ export function Projects() {
 
   return (
     <section
-      id="features"
+      id="projects"
       aria-label=""
-      className="relative overflow-hidden secondary pb-28 pt-20 sm:py-32"
+      className=""
     >
-      <Image
-        className="absolute left-1/2 top-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src=""
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
-      />
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-            <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl sectionTitles">
               Projects
             </h2>
-            <p className="mt-6 text-lg tracking-tight textAboutMe">
+            <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4 sectionTitles">
               I’ve worked on a few little projects over the years but these are the most important ones. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.
             </p>
         </div>
         <Tab.Group
           as="div"
-          className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+          className="mt-16 grid grid-cols-1 items-center secondary gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
@@ -119,8 +111,8 @@ export function Projects() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
-                              ? 'text-blue-600 lg:text-white'
-                              : 'text-blue-100 hover:text-white lg:text-white'
+                              ? 'secondaryTitles'
+                              : 'secondaryTitlesNotSelected hover:text-white '
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none" />
@@ -131,8 +123,8 @@ export function Projects() {
                         className={clsx(
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
-                            ? 'text-white'
-                            : 'text-blue-100 group-hover:text-white'
+                            ? 'secondaryText'
+                            : 'secondaryTextNotSelected group-hover:text-white'
                         )}
                       >
                         {feature.description}
@@ -146,7 +138,7 @@ export function Projects() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">
+                      <p className="relative mx-auto max-w-2xl secondaryText text-base sm:text-center">
                         {feature.description}
                       </p>
                     </div>

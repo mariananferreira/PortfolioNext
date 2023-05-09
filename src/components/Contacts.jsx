@@ -8,9 +8,9 @@ import insta from '@/images/5.png'
 export function Contacts() {
   return (
     <section
-      id="contatos"
+      id="contacts"
       aria-label=""
-      className="bg-slate-200 py-20 sm:py-32"
+      className=" py-20 sm:py-32"
     >
       <Container>
           <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">

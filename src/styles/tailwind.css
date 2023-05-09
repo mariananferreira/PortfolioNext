@@ -7,14 +7,14 @@
 }
 
 .name{
-  color:#fff;
+  color:#9dbcbc;
   font-size: 30px;
   font-family: 'Righteous', cursive;
 
 }
 
 .textAboutMe{
-  color:#f1e4d5;
+  color: #6b6b6b;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
@@ -22,6 +22,12 @@
   text-indent: 30px;
 
 }
+
+.secondaryColor{
+  color: #b7b7b7;
+
+}
+
 .test {
   font-family: 'Courier New', monospace;
   color:#1e1e26;
@@ -36,14 +42,15 @@
 }
 
 .summmaryText{
-  color:#1e1e26;
-  font-family: 'Carme', sans-serif;
+  color: #6b6b6b;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 
 }
 .summmaryTextWhite{
-  color:#fff;
-  font-family: 'Carme', sans-serif;
+  color:#000;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 
 }
@@ -51,16 +58,16 @@
 .title{
   color:#E0BBE4;
   font-weight: bold;
-  font-family: 'Carme', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   font-size: x-large;
   padding-bottom: 3%;
 }
 
 .titleWhite{
-  color:#fff;
+  color:#000;
   font-weight: bold;
-  font-family: 'Carme', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   font-size: x-large ;
   padding-bottom:10% ;
@@ -68,7 +75,7 @@
 
 
 .mobileNumber{
-  font-family: 'Carme', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #1e1e26;
 
 }
@@ -91,16 +98,16 @@
 }
 
 .secondaryHeader:hover{
-  background-color: #FEC8D8;
+  background-color: #e5e7eb;
 }
 
 
 .secondary {
-  background-color: #D291BC;
+  background-color: #fff5bb;
 }
 
 .primaryBack {
-  background-color: #FFFDE7;
+  background-color: #b7b7b7;
 }
 
 
@@ -138,3 +145,32 @@
   color: #fff;
   font-family: 'Righteous', cursive;
 }
+
+.sectionTitles{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+
+}
+
+.secondaryText{
+  color: #6b6b6b;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.secondaryTitles{
+  color: #006666;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+
+.secondaryTextNotSelected{
+  color: #b7b7b7;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.secondaryTitlesNotSelected{
+  color: #6b6b6b;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+

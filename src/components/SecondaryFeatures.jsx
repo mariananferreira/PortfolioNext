@@ -29,16 +29,16 @@ const posts = [
 export function SecondaryFeatures() {
   return (
     <section
-      id="agendamentos"
+      id="whatido"
       aria-label=""
       className="lg:pb-24"
     >
       <Container>
         <div className="mx-auto max-w-4xl md:text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl marginAdjust sectionTitles">
             Ways that I can be useful
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4 sectionTitles">
             A website can help you establish and promote your brand identity. By creating a website that reflects your brand values and messaging, you can increase brand awareness and recognition.          
           </p>
         </div>

@@ -22,7 +22,7 @@ export function CallToAction() {
             Get started today
           </h2>
           <p className="mt-4 text-lg tracking-tight secondaryTextNotSelected">
-            Your business is not just a job, it's a journey. Embrace the challenges, learn from the failures, and enjoy the successes along the way.
+            Your business is not just a job, it is a journey. Embrace the challenges, learn from the failures, and enjoy the successes along the way.
           </p>
         </div>
       </Container>

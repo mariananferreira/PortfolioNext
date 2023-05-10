@@ -121,16 +121,16 @@ export function AboutMe() {
                   Passionate traveler                
                 </h2>
                 <p className="textAboutMe">
-                  As a passionate software developer, I thrive on creating innovative solutions that solve real-world problems. I'm working as a Pega System Architect at a company, where I'm responsible for designing and implementing complex business processes.
+                  As a passionate software developer, I thrive on creating innovative solutions that solve real-world problems. I am working as a Pega System Architect at a company, where I am responsible for designing and implementing complex business processes.
                 </p>
                 <p className="textAboutMe">
-                  But my expertise doesn't end there. I also specialize in creating <u>custom web applications</u> for individuals and small businesses. I have experience working with a variety of web technologies such as HTML, CSS, JavaScript, and React.
+                  But my expertise does not end there. I also specialize in creating <u>custom web applications</u> for individuals and small businesses. I have experience working with a variety of web technologies such as HTML, CSS, JavaScript, and React.
                 </p>
                 <p className="textAboutMe">
-                  My approach is centered in understanding the clients needs and delivering solutions that exceed their expectations. I'm committed to staying up-to-date with the latest technologies and best practices, so I can deliver high-quality results.
+                  My approach is centered in understanding the clients needs and delivering solutions that exceed their expectations. I am committed to staying up-to-date with the latest technologies and best practices, so I can deliver high-quality results.
                 </p>
                 <p className="textAboutMe">
-                  As a digital nomad to be, I love to explore new places and cultures, and I'm always on the lookout for my next adventure!
+                  As a digital nomad to be, I love to explore new places and cultures, and I am always on the lookout for my next adventure!
                 </p>
                 <div className="sm:col-span-2 sm:flex sm:justify-end">
                   <ul role="list" className="mt-8 flex space-x-12 socialMedia">

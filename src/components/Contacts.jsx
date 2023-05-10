@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
 import { Container } from '@/components/Container'
-import mari3 from '@/images/5.png'
+import SM from '@/images/imgSM.png'
 
 export function Contacts() {
   const form = useRef()
@@ -203,7 +203,7 @@ export function Contacts() {
                 </div>
                 <Image
                   className="rounded-3xl object-cover object-center shadow-2xl"
-                  src={mari3}
+                  src={SM}
                   alt=""
                   priority
                 />

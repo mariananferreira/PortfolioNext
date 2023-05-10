@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Mariana Portfolio</title>
+        <title>Mariana&apos;s Portfolio</title>
       </Head>
       <Header />
       <main className='primaryBack'>

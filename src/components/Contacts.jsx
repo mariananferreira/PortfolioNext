@@ -1,11 +1,37 @@
 import Image from 'next/image'
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
+
 
 import { Container } from '@/components/Container'
 import mari3 from '@/images/5.png'
-import insta from '@/images/5.png'
 
 
 export function Contacts() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.init('SlgE9reC5vzK-He3e');
+       
+    emailjs
+      .sendForm(
+        "service_xbstqxs",
+        "template_kf1umh6",
+        form.current,
+        'SlgE9reC5vzK-He3e'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section
       id="contacts"
@@ -199,28 +225,101 @@ export function Contacts() {
                           </svg>
                         </a>
                       </li>
-                    </ul>
-                    <Image
-                      className="rounded-3xl object-cover object-center shadow-2xl marginAdjust"
-                      src={insta}
-                      alt=""
-                      priority
-                    />
-                    <p className="summmaryText marginAdjust">Ou ligue-me através do número:
-                    </p>              
+                    </ul>         
+                  </div>
 
-                    <ul  className="mt-10 text-indigo-200 mobileIcon marginAdjust">
-                      <li>
-                          <span className="sr-only">Facebook
+
+
+                  <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+                    <form
+                      ref={form}
+                      onSubmit={sendEmail}
+                      action="#"
+                      method="POST"
+                      className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                    >
+                      <div>
+                        <label
+                        htmlFor="first-name"
+                        className="block text-sm font-medium text-gray-900"
+                      >
+                        Name
+                        </label>
+                        <div className="mt-1">
+                          <input
+                            type="text"
+                            name="from_name"
+                            id="first-name"
+                            autoComplete="given-name"
+                            className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                          />
+                        </div>
+                      </div>
+                      <div>
+                          <label
+                          htmlFor="email"
+                          className="block text-sm font-medium text-gray-900"
+                        >
+                          Email
+                        </label>
+                        <div className="mt-1">
+                          <input
+                            id="email"
+                            name="from_email"
+                            ype="email"
+                            autoComplete="email"
+                            className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                          />
+                        </div>
+                      </div>
+                      <div className="sm:col-span-2">
+                        <label
+                          htmlFor="subject"
+                          className="block text-sm font-medium text-gray-900"
+                        >
+                          Subject
+                        </label>
+                        <div className="mt-1">
+                          <input
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                          />
+                        </div>
+                      </div>
+                      <div className="sm:col-span-2">
+                        <div className="flex justify-between">
+                          <label
+                            htmlFor="message"
+                            className="block text-sm font-medium text-gray-900"
+                          >
+                            Message
+                          </label>
+                          <span id="message-max" className="text-sm text-gray-500">
+                            Max. 500 characters
                           </span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                          </svg>                        
-                      </li>
-                      <p className="mobileNumber">+351 938396971
-                      </p>
-                    </ul>
+                        </div>
+                        <div className="mt-1">
+                          <textarea
+                            id="message"
+                            name="message"
+                            rows={4}
+                            className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            aria-describedby="message-max"
+                            defaultValue={""}
+                          />
+                        </div>
+                      </div>
+                      <div className="sm:col-span-2 sm:flex sm:justify-end">
+                        <button
+                          type="submit"
+                          className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent secondary px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>

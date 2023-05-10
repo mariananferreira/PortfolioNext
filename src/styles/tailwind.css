@@ -95,7 +95,6 @@
 
 .imageZoom:hover{
   transform: scale(1.1);
-
 }
 
 .secondaryHeader:hover{
@@ -103,7 +102,7 @@
 }
 
 
-.secondary {
+.secondary { 
   background-color: #00b8b3;
 }
 

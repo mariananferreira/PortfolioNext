@@ -21,7 +21,7 @@ export function CallToAction() {
           <h2 className="sectionTitles sm:text-4xl">
             Get started today
           </h2>
-          <p className="mt-4 text-lg tracking-tight secondaryTextNotSelected">
+          <p className="mt-4 text-lg tracking-tight secondaryText">
             Your business is not just a job, it is a journey. Embrace the challenges, learn from the failures, and enjoy the successes along the way.
           </p>
         </div>

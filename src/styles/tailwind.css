@@ -6,58 +6,52 @@
   min-height: 100%;
 }
 
-.name{
-  color:#fff;
+.name {
+  color: #fff;
   font-size: 30px;
-  font-family: 'Righteous', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
   padding-top: 2rem;
-
 }
 
-.textAboutMe{
+.textAboutMe {
   color: #fff;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
   margin-top: 30px;
   text-indent: 30px;
-
 }
 
-.secondaryColor{
+.secondaryColor {
   color: #fdca79;
-
 }
 
 .test {
   font-family: 'Courier New', monospace;
-  color:#1e1e26;
+  color: #1e1e26;
   letter-spacing: 2px;
   font-weight: 200;
   line-height: 110%;
-
 }
 
-.background{
+.background {
   background-color: #fff;
 }
 
-.summmaryText{
+.summmaryText {
   color: #6b6b6b;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-
 }
-.summmaryTextWhite{
-  color:#000;
+.summmaryTextWhite {
+  color: #000;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-
 }
 
-.title{
-  color:#00b8b3;
+.title {
+  color: #00b8b3;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -65,44 +59,40 @@
   padding-bottom: 3%;
 }
 
-.titleWhite{
-  color:#000;
+.titleWhite {
+  color: #000;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  font-size: x-large ;
-  padding-bottom:10% ;
+  font-size: x-large;
+  padding-bottom: 10%;
 }
 
-
-.mobileNumber{
+.mobileNumber {
   font-family: 'Source Sans Pro', sans-serif;
   color: #1e1e26;
 }
 
-.mobileIcon{
+.mobileIcon {
   display: flex;
   justify-content: center;
-
 }
 
-.contactAlign{
+.contactAlign {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
-.imageZoom:hover{
+.imageZoom:hover {
   transform: scale(1.1);
 }
 
-.secondaryHeader:hover{
+.secondaryHeader:hover {
   background-color: #e5e7eb;
 }
 
-
-.secondary { 
+.secondary {
   background-color: #00b8b3;
 }
 
@@ -110,69 +100,64 @@
   background-color: #fff;
 }
 
-
-.buttonStyle{
+.buttonStyle {
   color: #1e1e26;
   font-family: 'Carme', sans-serif;
-
 }
 
-.primary{
-  color:#fff;
+.primary {
+  color: #fff;
   font-size: 15px;
-  font-family: "Great Vibes", cursive;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-left: 5px;
 }
 
-.socialMedia{
+.socialMedia {
   justify-content: center;
   padding-bottom: 2rem;
 }
 
-.margin{
+.margin {
   padding-top: 10rem;
 }
 
-.marginAdjust{
+.marginAdjust {
   margin-top: 5rem;
 }
 
-.heading{
+.heading {
   color: #000;
   font-family: 'Righteous', cursive;
 }
 
-.headingSecondary{
+.headingSecondary {
   color: #fdca79;
   font-family: 'Righteous', cursive;
 }
 
-.sectionTitles{
+.sectionTitles {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-
 }
 
-.secondaryText{
-  color: #6b6b6b;
+.secondaryText {
+  color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
-
+  font-size: 1rem;
 }
-.secondaryTitles{
+.secondaryTitles {
   color: #192710;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
 
-.secondaryTextNotSelected{
-  color: #fff;
+.secondaryTextNotSelected {
+  color: #6b6b6b;
   font-family: 'Source Sans Pro', sans-serif;
-
+  font-size: 1rem;
 }
-.secondaryTitlesNotSelected{
+.secondaryTitlesNotSelected {
   color: #fdca79;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
-
-

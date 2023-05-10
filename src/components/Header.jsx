@@ -91,23 +91,23 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed w-full top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
+    <header className="fixed w-full font-bold top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
     ">
       <div className="mr-6 flex lg:hidden">
-      <MobileNavigation/>
+        <MobileNavigation />
       </div>
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="relative flex flex-grow basis-0 items-center">
             <Link href="#" aria-label="Home">
-            <Image
+              <Image
                 className="h-9 w-8"
                 src={logo}
                 alt="nut"
-                priority              
+                priority
               />
             </Link>
-            <p className= "primary">Mariana Ferreira</p>
+            <p className="primary">Mariana Ferreira</p>
             <div className="hidden sm:ml-6 lg:block space-x-4">
               <NavLink href="#aboutme">About Me</NavLink>
               <NavLink href="#projects">Projects</NavLink>

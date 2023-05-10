@@ -141,7 +141,7 @@ export function Contacts() {
                   </svg>
                 </div>
                 <h3 className="sectionTitles sm:text-2xl text-lg text-white">
-                  Send me a message on social media:
+                  Send me a message on social media
                 </h3>
                 <div className="sm:col-span-2 sm:flex socialMedia">
                   <ul role="list" className="mt-8 flex space-x-12">
@@ -166,7 +166,7 @@ export function Contacts() {
                     <li>
                       <a
                         className="name hover:text-indigo-100"
-                        href="https://www.linkedin.com/in/marianacnferreira/"
+                        href="https://m.me/marianacnferreira"
                         target="blank"
                         rel="noreferrer"
                       >

@@ -7,14 +7,15 @@
 }
 
 .name{
-  color:#9dbcbc;
+  color:#fff;
   font-size: 30px;
   font-family: 'Righteous', cursive;
+  padding-top: 2rem;
 
 }
 
 .textAboutMe{
-  color: #6b6b6b;
+  color: #fff;
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
@@ -24,7 +25,7 @@
 }
 
 .secondaryColor{
-  color: #b7b7b7;
+  color: #fdca79;
 
 }
 
@@ -56,7 +57,7 @@
 }
 
 .title{
-  color:#E0BBE4;
+  color:#00b8b3;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -77,8 +78,8 @@
 .mobileNumber{
   font-family: 'Source Sans Pro', sans-serif;
   color: #1e1e26;
-
 }
+
 .mobileIcon{
   display: flex;
   justify-content: center;
@@ -93,7 +94,7 @@
 }
 
 .imageZoom:hover{
-  transform: scale(1.25);
+  transform: scale(1.1);
 
 }
 
@@ -103,11 +104,11 @@
 
 
 .secondary {
-  background-color: #fff5bb;
+  background-color: #00b8b3;
 }
 
 .primaryBack {
-  background-color: #b7b7b7;
+  background-color: #fff;
 }
 
 
@@ -126,6 +127,7 @@
 
 .socialMedia{
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .margin{
@@ -142,7 +144,7 @@
 }
 
 .headingSecondary{
-  color: #fff;
+  color: #fdca79;
   font-family: 'Righteous', cursive;
 }
 
@@ -158,19 +160,20 @@
 
 }
 .secondaryTitles{
-  color: #006666;
+  color: #192710;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
 
 .secondaryTextNotSelected{
-  color: #b7b7b7;
+  color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
 
 }
 .secondaryTitlesNotSelected{
-  color: #6b6b6b;
+  color: #fdca79;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
 }
+
 

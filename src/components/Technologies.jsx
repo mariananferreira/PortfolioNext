@@ -106,16 +106,21 @@ const people = [
 
 ];
 
+//emailjs.init('SlgE9reC5vzK-He3e');
+//emailjs.sendForm('service_xbstqxs', 'template_kf1umh6', this)
+
+
 export default function Technologies() {
   return (
     <section
       id="technologies"
       aria-label=""
     >
+
       <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-8 sm:space-y-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Technologies that I use
+              Skills
             </h2>
           <ul
             role="list"

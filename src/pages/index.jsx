@@ -3,11 +3,11 @@ import Head from 'next/head'
 import { CallToAction } from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { PrimaryFeatures } from '@/components/PrimaryFeatures'
+import { Banner } from '@/components/Banner'
+import { AboutMe } from '@/components/AboutMe'
 import { Projects } from '@/components/Projects'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import Technologies, { Testimonials } from '@/components/Testimonials'
+import { WhatCanDo } from '@/components/WhatCanDo'
+import Technologies from '@/components/Technologies'
 import { Contacts } from '@/components/Contacts'
 
 
@@ -19,10 +19,10 @@ export default function Home() {
       </Head>
       <Header />
       <main className='primaryBack'>
-        <Hero />
-        <PrimaryFeatures />
+        <Banner />
+        <AboutMe />
         <Projects />
-        <SecondaryFeatures />
+        <WhatCanDo />
         <CallToAction />
         <Technologies />
         <Contacts />

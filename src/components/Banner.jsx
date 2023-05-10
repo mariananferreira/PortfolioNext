@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import backgroundImage from '@/images/13.png'
+import backgroundImage from '@/images/img3.png'
 
 
-export function Hero() {
+export function Banner() {
   return (
     <main className="overflow-x-hidden primaryBack">
       <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
@@ -19,6 +19,9 @@ export function Hero() {
               <span className="block heading">Welcome</span>
               <span className="block headingSecondary">To my porfolio</span>
             </h1>
+            <p>s</p>
+            <p>s</p>
+            <p>s</p>
           </div>
         </div>
     </main>

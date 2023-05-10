@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import pc from '@/images/5.png'
+import strategy from '@/images/img6.jpeg'
+import support from '@/images/img4.png'
+
 
 
 const posts = [
   {
-    title: "Web Applications Development",
+    title: "Web Apps Development",
     description:
       "A well-designed website can help establish credibility for your business. A professional-looking website with accurate and up-to-date information can convey that your business is trustworthy and legitimate, which can be crucial for attracting customers and building relationships with them",
     imageUrl: pc,
@@ -14,19 +17,19 @@ const posts = [
     title: "Business Strategy",
     description:
       "A website can help increase the visibility of your business by allowing potential customers to find you online. With the right SEO (Search Engine Optimization) techniques, your website can appear at the top of search engine results pages, making it easier for potential customers to find you.",
-    imageUrl: pc,
+    imageUrl: strategy,
   },
     {
     title: "Ongoing Support",
     description:
       "Your website is always growing. Whether you’re adding new features or making improvements I am here to help. I won’t leave you guessing how your own website works and will always be available to answer any questions you might have.",
-    imageUrl: pc,
+    imageUrl: support,
   },
 
 ];
 
 
-export function SecondaryFeatures() {
+export function WhatCanDo() {
   return (
     <section
       id="whatido"
@@ -50,7 +53,7 @@ export function SecondaryFeatures() {
             >
               <div className="flex-shrink-0">
                 <Image
-                  className="h-41 w-full object-cover"
+                  className="h-41 w-full object-cover imageZoom"
                   src={post.imageUrl}
                   alt=""
                   priority

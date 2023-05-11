@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import backgroundImage from '@/images/img3.png'
+import backgroundImage from '@/images/imgbanner.png'
 
 
 export function Banner() {
@@ -19,9 +19,7 @@ export function Banner() {
               <span className="block heading">Welcome</span>
               <span className="block headingSecondary">To my porfolio</span>
             </h1>
-            <p>s</p>
-            <p>s</p>
-            <p>s</p>
+
           </div>
         </div>
     </main>

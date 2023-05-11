@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import backgroundImage from '@/images/imgbanner.png'
+import backgroundImage from '@/images/img20.png'
 
 
 export function Banner() {
@@ -16,10 +16,10 @@ export function Banner() {
         </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
             <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-              <span className="block heading">Welcome</span>
-              <span className="block headingSecondary">To my porfolio</span>
+              <span className="block heading">acompanhamento nutricional</span>
+              <span className="block headingSecondary">comece hoje a mudar a sua vida</span>
             </h1>
-
+              <p>indivikskhnd e ajustado as duas necessidmdsh</p>
           </div>
         </div>
     </main>

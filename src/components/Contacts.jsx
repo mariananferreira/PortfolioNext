@@ -183,7 +183,7 @@ export function Contacts() {
                     <li>
                       <a
                         className="name hover:text-indigo-100"
-                        href="https://www.instagram.com/nutri_marianaguerreiro/"
+                        href="https://www.instagram.com/marianacnferreira/"
                         target="_blank"
                         rel="noreferrer"
                       >

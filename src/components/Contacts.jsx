@@ -37,7 +37,7 @@ export function Contacts() {
       <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
         If you have a project in mind or would like to make an enquiry simply
         and If you think we&apos;d be a good match contact me, via email or
-        whastapp.
+        whatsapp.
       </p>
       <Container>
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
@@ -144,7 +144,7 @@ export function Contacts() {
                   Send me a message on social media
                 </h3>
                 <div className="sm:col-span-2 sm:flex socialMedia">
-                  <ul role="list" className="mt-8 flex space-x-12">
+                  <ul role="list" className="mt-8 flex space-x-12 socialMedia">
                     <li>
                       <a
                         className="name hover:text-indigo-100"

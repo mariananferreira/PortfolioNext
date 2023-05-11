@@ -126,13 +126,17 @@
 }
 
 .heading {
-  color: #000;
-  font-family: 'Righteous', cursive;
+  color: #3ab7b3;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 150%;
+  font-weight: bold
 }
 
 .headingSecondary {
   color: #fdca79;
-  font-family: 'Righteous', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 130%;
+  font-weight: bold
 }
 
 .sectionTitles {
@@ -144,6 +148,7 @@
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
+  justify-content: center;
 }
 .secondaryTitles {
   color: #192710;
@@ -152,7 +157,7 @@
 }
 
 .secondaryTextNotSelected {
-  color: #6b6b6b;
+  color: #000;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1rem;
 }

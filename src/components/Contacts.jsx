@@ -10,7 +10,6 @@ export function Contacts() {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    emailjs.init('SlgE9reC5vzK-He3e')
 
     emailjs
       .sendForm(
@@ -246,7 +245,7 @@ export function Contacts() {
                         name="from_email"
                         ype="email"
                         autoComplete="email"
-                        className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        className="block w-full rounded-md border-gray-900 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>

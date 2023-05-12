@@ -50,7 +50,7 @@ export default function Home({ articles }) {
             Hello!<br/> 
             My name is Mariana, a software developer based in Porto. I thrive on creating innovative solutions that solve real-world problems. 
             I am specialize in creating <u>custom web applications</u> for individuals and small businesses. 
-            I have experience working with a variety of web technologies such as HTML, CSS, JavaScript, and React. Contact me for more information!
+            Contact me for more information!
           </p>
           <div className="mt-6 flex gap-6">
           <div className="sm:col-span-2 sm:flex sm:justify-end">

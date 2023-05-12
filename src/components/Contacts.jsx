@@ -139,11 +139,11 @@ export function Contacts() {
                     </defs>
                   </svg>
                 </div>
-                <h3 className="sectionTitles sm:text-2xl text-lg text-white">
+                <h3 className="sectionTitles text-lg text-white sm:text-2xl">
                   Send me a message on social media
                 </h3>
-                <div className="sm:col-span-2 sm:flex socialMedia">
-                  <ul role="list" className="mt-8 flex space-x-12 socialMedia">
+                <div className="socialMedia sm:col-span-2 sm:flex">
+                  <ul role="list" className="socialMedia mt-8 flex space-x-12">
                     <li>
                       <a
                         className="name hover:text-indigo-100"

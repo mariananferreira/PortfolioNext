@@ -12,7 +12,6 @@
   padding-top: 2rem;
 }
 
-
 .textAboutMe {
   color: #52525b;
   font-size: 1rem;
@@ -32,7 +31,6 @@
   letter-spacing: 2px;
   font-weight: 200;
   line-height: 110%;
-  
 }
 
 .background {
@@ -118,11 +116,9 @@
   padding-bottom: 2rem;
 }
 
-
 .marginAdjust {
   margin-top: 5rem;
 }
-
 
 .sectionTitles {
   font-family: 'Source Sans Pro', sans-serif;
@@ -134,7 +130,6 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
   justify-content: center;
-
 }
 .secondaryTitles {
   color: #192710;
@@ -147,21 +142,22 @@
   color: #52525b;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
-
 }
 .secondaryTitlesNotSelected {
   color: #b98b74;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
   font-size: 1.1rem;
-
-
 }
 
-.firstTitle{
+.firstTitle {
   color: #92c2df;
 }
 
-.firstIcons{
+.firstIcons {
   color: #b98b74;
+}
+
+.buttonStyle{
+  background-color: #b98b74;
 }

@@ -11,24 +11,23 @@ import shop from '@/images/shopi.jpg'
 import vfx from '@/images/vfxira.jpg'
 import map from '@/images/maps.jpg'
 
-
 const features = [
   {
     title: 'Real Estate Website',
     description:
-      "This website includes a serie of pictures of the new apartments, a description of the building and its amenities, information about the area involved and a contact form.",
+      'This website includes a serie of pictures of the new apartments, a description of the building and its amenities, information about the area involved and a contact form.',
     image: realestate,
   },
   {
     title: 'Online presence',
     description:
-      "Having a website is crucial for any business looking to expand its online presence. By creating this website, the nutricionist could reach a wider audience and attract more potential customers",
+      'Having a website is crucial for any business looking to expand its online presence. By creating this website, the nutricionist could reach a wider audience and attract more potential customers',
     image: marig,
   },
   {
     title: '3D Models',
     description:
-      "With Three.js is possible to incorporate a 3D Model in a website. In this one is possible to see a Portugal city in 3D with the respective points of interest, it has a link to virtual tours in each point.",
+      'With Three.js is possible to incorporate a 3D Model in a website. In this one is possible to see a Portugal city in 3D with the respective points of interest, it has a link to virtual tours in each point.',
     image: map,
   },
 
@@ -42,7 +41,7 @@ const features = [
   {
     title: 'E-commerce website',
     description:
-      "Mago shop is a store of tech products, where it is possible to login, see the best selling products, evaluate and leave comments, put the products in the cart and make the payment.",
+      'Mago shop is a store of tech products, where it is possible to login, see the best selling products, evaluate and leave comments, put the products in the cart and make the payment.',
     image: shop,
   },
   {
@@ -51,7 +50,6 @@ const features = [
       'An portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
     image: portfolio,
   },
-
 ]
 
 export function Projects() {
@@ -73,23 +71,22 @@ export function Projects() {
   }, [])
 
   return (
-    <section
-      id="projects"
-      aria-label=""
-      className=""
-    >
+    <section id="projects" aria-label="" className="">
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl sectionTitles">
-              Projects
-            </h2>
-            <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4 sectionTitles">
-              I’ve worked on a few little projects over the years but these are the most important ones. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.
-            </p>
+          <h2 className="sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
+            Projects
+          </h2>
+          <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+            I’ve worked on a few little projects over the years but these are
+            the most important ones. Many of them are open-source, so if you see
+            something that piques your interest, check out the code and
+            contribute if you have ideas for how it can be improved.
+          </p>
         </div>
         <Tab.Group
           as="div"
-          className="mt-16 grid grid-cols-1 items-center secondary gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+          className="secondary mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (
@@ -138,11 +135,11 @@ export function Projects() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative mx-auto max-w-2xl secondaryText text-base sm:text-center">
+                      <p className="secondaryText relative mx-auto max-w-2xl text-base sm:text-center">
                         {feature.description}
                       </p>
                     </div>
-                    <div className="mt-10 overflow-hidden rounded-xl secondary shadow-xl shadow-purple-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="secondary mt-10 overflow-hidden rounded-xl shadow-xl shadow-purple-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         className="w-full"
                         src={feature.image}

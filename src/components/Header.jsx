@@ -62,7 +62,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 primaryBack " />
+          <Popover.Overlay className="primaryBack fixed inset-0 " />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -91,8 +91,10 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed w-full font-bold top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
-    ">
+    <header
+      className="fixed top-0 z-50 flex w-full flex-wrap items-center justify-between bg-[rgba(0,0,0,0.3)] px-4 py-3 font-bold shadow-md shadow-slate-900/5 transition duration-500 sm:px-6  lg:px-8 
+    "
+    >
       <div className="mr-6 flex lg:hidden">
         <MobileNavigation />
       </div>
@@ -100,15 +102,10 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="relative flex flex-grow basis-0 items-center">
             <Link href="#" aria-label="Home">
-              <Image
-                className="h-9 w-8"
-                src={logo}
-                alt="nut"
-                priority
-              />
+              <Image className="h-9 w-8" src={logo} alt="nut" priority />
             </Link>
             <p className="primary">Mariana Ferreira</p>
-            <div className="hidden sm:ml-6 lg:block space-x-4">
+            <div className="hidden space-x-4 sm:ml-6 lg:block">
               <NavLink href="#aboutme">About Me</NavLink>
               <NavLink href="#projects">Projects</NavLink>
               <NavLink href="#whatido">What I do?</NavLink>

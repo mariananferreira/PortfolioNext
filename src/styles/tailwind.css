@@ -9,10 +9,8 @@
 .name {
   color: #fff;
   font-size: 30px;
-  font-family: 'Source Sans Pro', sans-serif;
   padding-top: 2rem;
 }
-
 
 
 .textAboutMe {
@@ -54,7 +52,7 @@
 }
 
 .title {
-  color: #00b8b3;
+  color: #b98b74;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
@@ -120,27 +118,11 @@
   padding-bottom: 2rem;
 }
 
-.margin {
-  padding-top: 10rem;
-}
 
 .marginAdjust {
   margin-top: 5rem;
 }
 
-.heading {
-  color: #3ab7b3;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 150%;
-  font-weight: bold
-}
-
-.headingSecondary {
-  color: #fdca79;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 130%;
-  font-weight: bold
-}
 
 .sectionTitles {
   font-family: 'Source Sans Pro', sans-serif;
@@ -150,24 +132,30 @@
 .secondaryText {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   justify-content: center;
+
 }
 .secondaryTitles {
   color: #192710;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
+  font-size: 1.1rem;
 }
 
 .secondaryTextNotSelected {
-  color: #000;
+  color: #52525b;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
+
 }
 .secondaryTitlesNotSelected {
   color: #b98b74;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
+  font-size: 1.1rem;
+
+
 }
 
 .firstTitle{

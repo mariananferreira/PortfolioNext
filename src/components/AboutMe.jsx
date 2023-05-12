@@ -123,7 +123,7 @@ export function AboutMe() {
                   As a passionate software developer, I thrive on creating innovative solutions that solve real-world problems. I am working as a Pega System Architect at a company, where I am responsible for designing and implementing complex business processes.
                 </p> */}
                 <p className="textAboutMe">
-                  I am also specialize in creating <u>custom web applications</u> for individuals and small businesses. I have experience working with a variety of web technologies such as HTML, CSS, JavaScript, and React.
+                  I am working as a Pega System Architect at a company, where I am responsible for designing and implementing complex business processes.
                 </p>
                 <p className="textAboutMe">
                   My approach is centered in understanding the clients needs and delivering solutions that exceed their expectations. I am committed to staying up-to-date with the latest technologies and best practices, so I can deliver high-quality results.

@@ -53,7 +53,7 @@ export function WhatCanDo() {
             >
               <div className="flex-shrink-0">
                 <Image
-                  className="h-41 w-full object-cover imageZoom"
+                  className="h-41 w-full object-cover"
                   src={post.imageUrl}
                   alt=""
                   priority

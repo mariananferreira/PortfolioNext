@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import image1 from '@/images/imgMAC.jpg'
-import image2 from '@/images/img23.webp'
+import image2 from '@/images/imgMAC.jpg'
+import image1 from '@/images/img23.webp'
 import image3 from '@/images/desk1.jpg'
 import image4 from '@/images/im25.webp'
-import image5 from '@/images/img20.png'
+import image5 from '@/images/img25.jpeg'
 import { Container } from '@/components/Container'
 import clsx from 'clsx'
 
@@ -49,7 +49,8 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             Hello!<br/> 
             My name is Mariana, a software developer based in Porto. I thrive on creating innovative solutions that solve real-world problems. 
-            I am working as a Pega System Architect at a company, where I am responsible for designing and implementing complex business processes.
+            I am specialize in creating <u>custom web applications</u> for individuals and small businesses. 
+            I have experience working with a variety of web technologies such as HTML, CSS, JavaScript, and React. Contact me for more information!
           </p>
           <div className="mt-6 flex gap-6">
           <div className="sm:col-span-2 sm:flex sm:justify-end">

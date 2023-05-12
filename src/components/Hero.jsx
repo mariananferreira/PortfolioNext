@@ -17,7 +17,7 @@ function Photos() {
           <div
             key={image.src}
             className={clsx(
-              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
+              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length]
             )}
           >
@@ -46,7 +46,7 @@ export default function Home({ articles }) {
           <h1 className=" text-4xl font-bold tracking-tight firstTitle sm:text-5xl">
             Software Developer, <br/>System Architect, <br/>and Part-Time Traveler.
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-base text-zinc-600">
             Hello!<br/> 
             My name is Mariana, a software developer based in Porto. I thrive on creating innovative solutions that solve real-world problems. 
             I am specialize in creating <u>custom web applications</u> for individuals and small businesses. 

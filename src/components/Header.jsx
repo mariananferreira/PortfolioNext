@@ -91,7 +91,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed w-full font-bold top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
+    <header className="fixed w-full font-bold top-0 z-50 flex flex-wrap items-center justify-between px-4 py-3 shadow-md shadow-slate-900/5 transition duration-500 sm:px-6 lg:px-8  bg-[rgba(0,0,0,0.3)] 
     ">
       <div className="mr-6 flex lg:hidden">
         <MobileNavigation />

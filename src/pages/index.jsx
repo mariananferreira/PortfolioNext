@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { CallToAction } from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Banner } from '@/components/Banner'
+import  Hero  from '@/components/Hero'
 import { AboutMe } from '@/components/AboutMe'
 import { Projects } from '@/components/Projects'
 import { WhatCanDo } from '@/components/WhatCanDo'
@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className='primaryBack'>
-        <Banner />
+        <Hero />
         <AboutMe />
         <Projects />
         <WhatCanDo />

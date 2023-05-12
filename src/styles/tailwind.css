@@ -13,17 +13,19 @@
   padding-top: 2rem;
 }
 
+
+
 .textAboutMe {
-  color: #fff;
-  font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  color: #52525b;
+  font-size: 1rem;
   text-align: justify;
   margin-top: 30px;
   text-indent: 30px;
+  line-height: 1.76rem;
 }
 
 .secondaryColor {
-  color: #fdca79;
+  color: #b98b7485;
 }
 
 .test {
@@ -32,6 +34,7 @@
   letter-spacing: 2px;
   font-weight: 200;
   line-height: 110%;
+  
 }
 
 .background {
@@ -93,7 +96,7 @@
 }
 
 .secondary {
-  background-color: #00b8b3;
+  background-color: #92c2df;
 }
 
 .primaryBack {
@@ -162,7 +165,15 @@
   font-size: 1rem;
 }
 .secondaryTitlesNotSelected {
-  color: #fdca79;
+  color: #b98b74;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: justify;
+}
+
+.firstTitle{
+  color: #92c2df;
+}
+
+.firstIcons{
+  color: #b98b74;
 }

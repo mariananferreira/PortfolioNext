@@ -167,7 +167,7 @@ export function AboutMe() {
                     <li>
                       <a
                         className="name hover:text-indigo-100"
-                        href="https://www.instagram.com/marianacnferreira/"
+                        href="https://github.com/mariananferreira"
                         target="_blank"
                         rel="noreferrer"
                       >

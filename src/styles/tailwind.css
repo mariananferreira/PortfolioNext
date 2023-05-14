@@ -130,6 +130,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
   justify-content: center;
+  text-indent: 30px;
 }
 .secondaryTitles {
   color: #192710;
@@ -142,6 +143,7 @@
   color: #52525b;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
+  text-indent: 30px;
 }
 .secondaryTitlesNotSelected {
   color: #b98b74;

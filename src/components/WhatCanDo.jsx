@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import pc from '@/images/5.png'
-import strategy from '@/images/img6.jpeg'
+import strategy from '@/images/OM.jpg'
 import support from '@/images/img4.png'
 
 const posts = [

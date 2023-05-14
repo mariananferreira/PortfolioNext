@@ -47,7 +47,7 @@ const features = [
   {
     title: 'Portfolio',
     description:
-      'An portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
+      'A portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
     image: portfolio,
   },
 ]

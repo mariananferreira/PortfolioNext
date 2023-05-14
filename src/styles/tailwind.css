@@ -131,11 +131,13 @@
   font-size: 1.1rem;
   justify-content: center;
   text-indent: 30px;
+  text-align: center;
+
 }
 .secondaryTitles {
   color: #192710;
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: justify;
+  text-align: center;
   font-size: 1.1rem;
 }
 
@@ -144,11 +146,13 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1rem;
   text-indent: 30px;
+  text-align: center;
+
 }
 .secondaryTitlesNotSelected {
   color: #b98b74;
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: justify;
+  text-align: center;
   font-size: 1.1rem;
 }
 

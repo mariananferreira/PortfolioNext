@@ -95,7 +95,7 @@ export default function Home({ articles }) {
                 <li>
                   <a
                     className="firstIcons hover:text-indigo-100"
-                    href="https://www.instagram.com/marianacnferreira/"
+                    href="https://github.com/mariananferreira"
                     target="_blank"
                     rel="noreferrer"
                   >

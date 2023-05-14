@@ -30,15 +30,18 @@ export function Contacts() {
 
   return (
     <section id="contacts" aria-label="" className=" py-20 sm:py-32">
-      <h2 className="sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
-        Don&apos;t be shy
-      </h2>
-      <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-        If you have a project in mind or would like to make an enquiry simply
-        and If you think we&apos;d be a good match contact me, via email or
-        whatsapp.
-      </p>
       <Container>
+        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+          <h2 className="marginAdjust sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
+            Don&apos;t be shy
+          </h2>
+
+          <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+            If you have a project in mind or would like to make an enquiry
+            simply and If you think we&apos;d be a good match contact me, via
+            email or whatsapp.
+          </p>
+        </div>
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <div className="relative bg-white shadow-xl">
             <div className="grid grid-cols-1 lg:grid-cols-3">

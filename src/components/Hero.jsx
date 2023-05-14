@@ -40,18 +40,18 @@ export default function Home({ articles }) {
       <meta name="description" content="" />
       <Container className="mt-20">
         <div className="max-w-2xl">
-          <h1 className=" firstTitle text-4xl font-bold tracking-tight sm:text-5xl">
+          <h2 className="marginAdjust firstTitle text-3xl font-bold tracking-tight sm:text-4xl">
             Software Developer, <br />
             System Architect, <br />
             and Part-Time Traveler.
-          </h1>
+          </h2>
           <p className="mt-6 text-base text-zinc-600">
             Hello!
             <br />
             My name is Mariana, a software developer based in Porto. I thrive on
             creating innovative solutions that solve real-world problems. I am
             specialize in creating <u>custom web applications</u> for
-            individuals and small businesses. Contact me for more information!
+            individuals and small businesses. <br />Contact me for more information!
           </p>
           <div className="mt-6 flex gap-6">
             <div className="sm:col-span-2 sm:flex sm:justify-end">

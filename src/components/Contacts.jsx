@@ -142,7 +142,7 @@ export function Contacts() {
                     </defs>
                   </svg>
                 </div>
-                <h3 className="sectionTitles text-lg text-white sm:text-2xl">
+                <h3 className="text-center text-lg text-white sm:text-2xl">
                   Send me a message on social media
                 </h3>
                 <div className="socialMedia sm:col-span-2 sm:flex">
@@ -244,11 +244,11 @@ export function Contacts() {
                     </label>
                     <div className="mt-1">
                       <input
-                        id="email"
-                        name="from_email"
-                        ype="email"
-                        autoComplete="email"
-                        className="block w-full rounded-md border-gray-900 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        type="text"
+                        name="from_name"
+                        id="first-name"
+                        autoComplete="given-name"
+                        className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                       />
                     </div>
                   </div>

@@ -119,7 +119,7 @@ export default function Technologies() {
 
       <div className="mx-auto max-w-7xl py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-8 sm:space-y-12">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+            <h2 className="marginAdjust sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
               Skills
             </h2>
           <ul

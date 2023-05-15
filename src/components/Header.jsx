@@ -102,9 +102,7 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="relative flex flex-grow basis-0 items-center">
             <Link href="#" aria-label="Home">
-              <Image className="h-9 w-8" src={logo} alt="nut" priority />
             </Link>
-            <p className="primary">Mariana Ferreira</p>
             <div className="hidden space-x-4 sm:ml-6 lg:block">
               <NavLink href="#aboutme">About Me</NavLink>
               <NavLink href="#projects">Projects</NavLink>

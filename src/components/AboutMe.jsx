@@ -14,7 +14,6 @@ export function AboutMe() {
       className="primaryBack pb-28 pt-20 sm:py-32"
     >
       <Container className="relative py-16">
-        <div className="" aria-hidden="true" />
         <div className="mx-auto max-w-7xl lg:bg-transparent lg:px-8">
           <div className="lg:grid lg:grid-cols-12">
             <div className="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16">

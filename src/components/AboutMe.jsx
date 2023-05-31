@@ -4,7 +4,7 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import mari from '@/images/cvfoto.jpg'
+import mari from '@/images/girl3.jpeg'
 
 export function AboutMe() {
   return (

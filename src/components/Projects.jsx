@@ -44,12 +44,12 @@ const features = [
       'Mago shop is a store of tech products, where it is possible to login, see the best selling products, evaluate and leave comments, put the products in the cart and make the payment.',
     image: shop,
   },
-  {
-    title: 'Portfolio',
-    description:
-      'A portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
-    image: portfolio,
-  },
+  // {
+  //   title: 'Portfolio',
+  //   description:
+  //     'A portfolio can be easily shared with a global audience through various platforms. This can help you reach a wider audience and potentially attract more clients.',
+  //   image: portfolio,
+  // },
 ]
 
 export function Projects() {

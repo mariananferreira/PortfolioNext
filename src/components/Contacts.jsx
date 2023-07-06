@@ -1,31 +1,62 @@
 import Image from 'next/image'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
-
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import { Container } from '@/components/Container'
 import SM from '@/images/imgSM.png'
 
 export function Contacts() {
-  const form = useRef()
+  const [formData, setFormData] = useState({
+    from_name: '',
+    reply_to: '',
+    subject: '',
+    message: '',
+  })
 
-  const sendEmail = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setFormData((prevData) => ({ ...prevData, [name]: value }))
+  }
+
+  const handleSubmit = (e) => {
     e.preventDefault()
+
+    const { from_name, reply_to, subject, message } = formData
+    if (
+      from_name.trim() === '' ||
+      reply_to.trim() === '' ||
+      subject.trim() === '' ||
+      message.trim() === ''
+    ) {
+      toast.error('Por favor, preencha todos os campos')
+      return
+    }
 
     emailjs
       .sendForm(
         'service_xbstqxs',
         'template_kf1umh6',
-        form.current,
+        e.target,
         'SlgE9reC5vzK-He3e'
       )
       .then(
         (result) => {
           console.log(result.text)
+          toast.success('Email sent with success!')
         },
         (error) => {
           console.log(error.text)
+          toast.error('Error sending the email. Please, try again.')
         }
       )
+
+    setFormData({
+      from_name: '',
+      reply_to: '',
+      subject: '',
+      message: '',
+    })
   }
 
   return (
@@ -36,7 +67,7 @@ export function Contacts() {
             Don&apos;t be shy
           </h2>
 
-          <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          <p className="sectionText mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
             If you have a project in mind or would like to make an enquiry
             simply and If you think we&apos;d be a good match contact me, via
             email or whatsapp.
@@ -212,8 +243,7 @@ export function Contacts() {
               </div>
               <div className="px-6 py-10 sm:px-10 lg:col-span-2 xl:p-12">
                 <form
-                  ref={form}
-                  onSubmit={sendEmail}
+                  onSubmit={handleSubmit}
                   action="#"
                   method="POST"
                   className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
@@ -229,9 +259,12 @@ export function Contacts() {
                       <input
                         type="text"
                         name="from_name"
-                        id="first-name"
+                        id="from_name"
+                        required
                         autoComplete="given-name"
                         className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        value={formData.from_name}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -244,11 +277,14 @@ export function Contacts() {
                     </label>
                     <div className="mt-1">
                       <input
-                        type="text"
-                        name="from_name"
-                        id="first-name"
-                        autoComplete="given-name"
+                        type="email"
+                        name="reply_to"
+                        id="email"
+                        required
+                        autoComplete="email"
                         className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        value={formData.reply_to}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -264,7 +300,10 @@ export function Contacts() {
                         type="text"
                         name="subject"
                         id="subject"
+                        required
                         className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        value={formData.subject}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -277,7 +316,7 @@ export function Contacts() {
                         Message
                       </label>
                       <span id="message-max" className="text-sm text-gray-500">
-                        Max. 500 characters
+                        Max. 500 caracteres.
                       </span>
                     </div>
                     <div className="mt-1">
@@ -285,19 +324,22 @@ export function Contacts() {
                         id="message"
                         name="message"
                         rows={4}
+                        required
                         className="block w-full rounded-md border-gray-300 px-4 py-3 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                         aria-describedby="message-max"
-                        defaultValue={''}
+                        value={formData.message}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                   <div className="sm:col-span-2 sm:flex sm:justify-end">
                     <button
                       type="submit"
-                      className="secondary mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto"
+                      className="secondary mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent px-6 py-3 text-base font-medium  shadow-sm hover:bg-rose-100 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:w-auto"
                     >
-                      Submit
+                      Send
                     </button>
+                    <ToastContainer />
                   </div>
                 </form>
               </div>

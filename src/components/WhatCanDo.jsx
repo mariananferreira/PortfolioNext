@@ -33,7 +33,7 @@ export function WhatCanDo() {
           <h2 className="marginAdjust sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
           Ways that I can be useful
           </h2>
-          <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          <p className="sectionText mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
             A website can help you establish and promote your brand identity. By
             creating a website that reflects your brand values and messaging,
             you can increase brand awareness and recognition.

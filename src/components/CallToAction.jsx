@@ -11,7 +11,7 @@ export function CallToAction() {
     >
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
-          <p className="secondaryTextNotSelected mt-4 text-lg tracking-tight">
+          <p className="textCallToAction mt-4 text-2xl py-8 leading-10 tracking-wide">
             Your business is not just a job, it is a journey. Embrace the
             challenges, learn from the failures, and enjoy the successes along
             the way.

@@ -45,7 +45,7 @@ export default function Home({ articles }) {
             System Architect, <br />
             and Part-Time Traveler.
           </h2>
-          <p className="mt-6 text-base text-zinc-600">
+          <p className="mt-6 leading-10 text-xl text-justify	text-zinc-600">
             Hello!
             <br />
             My name is Mariana, a software developer based in Porto. I thrive on

@@ -14,11 +14,11 @@
 
 .textAboutMe {
   color: #52525b;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-align: justify;
   margin-top: 30px;
   text-indent: 30px;
-  line-height: 1.76rem;
+  line-height: 2.50rem;
 }
 
 .secondaryColor {
@@ -100,6 +100,11 @@
 
 .sectionTitles {
   text-align: justify;
+  color: #92c2df;
+}
+
+.sectionText {
+  text-align: justify;
 }
 
 .secondaryText {
@@ -142,4 +147,19 @@
 
 .buttonStyle{
   background-color: #b98b74;
+}
+
+.navBarColor {
+  background-color: rgb(143 190 220 / 42%);
+}
+
+.navBarColorText:hover {
+  background-color: #92c2df;
+}
+
+.textCallToAction {
+  color: #52525b;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-indent: 30px;
+
 }

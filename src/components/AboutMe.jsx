@@ -109,18 +109,18 @@ export function AboutMe() {
                 <h2 className="test text-2xl tracking-tight" id="join-heading">
                   Getting to know me better, <br />
                 </h2>
-                <p className="textAboutMe">
+                <p className="textAboutMe text-zinc-600">
                   I am working as a Pega System Architect at a company, where I
                   am responsible for designing and implementing complex business
                   processes.
                 </p>
-                <p className="textAboutMe">
+                <p className="textAboutMe text-zinc-600">
                   My approach is centered in understanding the clients needs and
                   delivering solutions that exceed their expectations. I am
                   committed to staying up-to-date with the latest technologies
                   and best practices, so I can deliver high-quality results.
                 </p>
-                <p className="textAboutMe">
+                <p className="textAboutMe text-zinc-600">
                   As a digital nomad to be, I love to explore new places and
                   cultures, and I am always on the lookout for my next
                   adventure!

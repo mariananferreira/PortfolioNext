@@ -80,7 +80,7 @@ export function Projects() {
           <h2 className="sectionTitles text-3xl font-bold tracking-tight sm:text-4xl">
             Projects
           </h2>
-          <p className="sectionTitles mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          <p className="sectionText mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
             I’ve worked on a few little projects over the years but these are
             the most important ones. Many of them are open-source, so if you see
             something that piques your interest, check out the code and

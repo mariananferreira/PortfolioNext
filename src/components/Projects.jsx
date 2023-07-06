@@ -8,8 +8,8 @@ import marig from '@/images/marig.png'
 import portfolio from '@/images/portf.jpg'
 import realestate from '@/images/rstate.jpg'
 import shop from '@/images/shopi.jpg'
-import di from '@/images/di.png'
-import map from '@/images/map3d.png'
+import vfx from '@/images/vfxira.jpg'
+import map from '@/images/maps.jpg'
 
 const features = [
   {
@@ -23,22 +23,19 @@ const features = [
     description:
       'Having a website is crucial for any business looking to expand its online presence. By creating this website, the nutricionist could reach a wider audience and attract more potential customers',
     image: marig,
-    url: "https://nutrimarianaguerreiro.vercel.app"
   },
   {
     title: '3D Models',
     description:
       'With Three.js is possible to incorporate a 3D Model in a website. In this one is possible to see a Portugal city in 3D with the respective points of interest, it has a link to virtual tours in each point.',
     image: map,
-    url: "https://rhlt.cm-vfxira.pt/3d-2a-linha/"    
   },
 
   {
     title: 'Informative website',
     description:
-      "Informative website, where is possible to explore a Speech Therapy Clinic, meet the team, view the inviting therapy space, understand their mission and easily reach the team through the contact form.",
-    image: di,
-    url: "https://digabinetetf.vercel.app/"
+      "Informative website developed to be used in an interactive table. It provides information about the city's points of interest, historical references, a timeline of events and 3D models of the city.",
+    image: vfx,
   },
 
   {
@@ -143,12 +140,6 @@ export function Projects() {
                       </p>
                     </div>
                     <div className="secondary mt-10 overflow-hidden rounded-xl shadow-xl shadow-purple-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-                    <a
-                        className="name hover:text-indigo-100"
-                        href={feature.url}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
                       <Image
                         className="w-full"
                         src={feature.image}
@@ -156,7 +147,6 @@ export function Projects() {
                         priority
                         sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
                       />
-                      </a>
                     </div>
                   </Tab.Panel>
                 ))}
